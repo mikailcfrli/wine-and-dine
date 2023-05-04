@@ -1,0 +1,34 @@
+.container {
+  width: 95%;
+  height: 285px;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  gap: 150px;
+}
+
+.left1 .label {
+  display: flex;
+  flex-direction: column;
+}
+.left1 .facebook {
+  width: 5px;
+}
+.left1 .images {
+  display: flex;
+  gap: 50px;
+}
+.left1 .insta {
+  width: 12px;
+}
+.left1 .h1 {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 11px;
+  line-height: 20px;
+}
+
+.right1 .right {
+  width: 794px;
+  height: 285px;
+}/*# sourceMappingURL=Footer.css.map */
