@@ -1,1 +1,400 @@
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44%;
+    padding: 1% 0;
+    background-color: #0A0A0A;
 
+
+    p {
+        font-size: 10px;
+        font-family: "Inter", sans-serif;
+        color: #ffffff;
+        letter-spacing: 2px;
+
+        a {
+            font-size: 10px;
+            font-family: "Inter", sans-serif;
+            color: #ffffff;
+        }
+    }
+}
+
+.for-header {
+    width: 100%;
+
+    .for-secondheader {
+        padding: 1% 7%;
+        background-color: #0A0A0A;
+        display: flex;
+        flex-direction: row;
+        column-gap: 23px;
+
+
+
+
+        .logo-side {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+
+            .group {
+                width: 34px;
+                height: 34px;
+            }
+
+            .logo-name {
+                width: 193px;
+                height: 18px;
+                margin-top: 20px;
+            }
+        }
+
+        .search-side {
+
+            .search {
+                height: 37px;
+                width: 557px;
+            }
+
+            .for-search {
+                background-color: #7A0000;
+                width: 40px;
+                height: 37px;
+                border-style: none;
+            }
+        }
+
+        .personalarea {
+            display: flex;
+            flex-direction: column;
+            row-gap: 3px;
+
+
+            .area1 {
+                display: flex;
+                flex-direction: row;
+                column-gap: 22%;
+
+
+
+
+                .register {
+                    font-size: 12px;
+                    font-family: "Inter", sans-serif;
+                    color: #dbd9d9;
+                    text-decoration: none;
+
+                }
+
+
+                .login {
+                    font-size: 12px;
+                    font-family: "Inter", sans-serif;
+                    color: #dbd9d9;
+                    text-decoration: none;
+                    ;
+
+                }
+            }
+
+
+            .area3 {
+                font-size: 13px;
+                font-family: 'Inter', sans-serif;
+                color: #ffffff;
+
+
+            }
+        }
+
+        hr {
+            height: 20px;
+            border: 1px solid #414040;
+
+
+        }
+    }
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+
+    .up {
+        display: flex;
+        flex-direction: row;
+        column-gap: 10px;
+        align-items: center;
+
+        p {
+            color: rgb(209, 205, 205);
+            font-size: 12px;
+
+        }
+
+        img {
+            width: 10px;
+            height: 11px;
+        }
+    }
+
+    .down {
+        .number {
+            color: rgb(255, 255, 255);
+            font-size: 13px;
+        }
+    }
+
+
+}
+
+
+
+.for-cart {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2%;
+
+    .cart {
+        color: rgb(209, 205, 205);
+        font-size: 12px;
+    }
+
+    .amount {
+        color: #FFFFFF;
+        font-size: 13px;
+    }
+}
+.for-background{
+    background-color: #0A0A0A;
+    width: 100%;
+.container {
+    background-color: #292828;
+    width: 96%;
+
+    .wines {
+        display: flex;
+        flex-direction: row;
+        column-gap: 35px;
+        padding-left: 5%;
+        background-color: #292828;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        align-items: center;
+
+        .wine {
+            text-decoration: none;
+            color: #ffffff;
+            font-family: "Inter", sans-serif;
+            font-size: 14px;
+            letter-spacing: 1px;
+        }
+
+
+    }
+
+    .main-hr {
+        border: 1px solid black;
+    }
+
+    .picture-carusel {
+        padding-top: 35px;
+        background-color: #292828;
+
+
+
+        .background-first {
+            background: url("../../../assets/Images/Rectangle\ 3.png");
+            background-size: cover;
+            background-position-x: center;
+            width: 100%;
+            height: 285px;
+
+            .for-2writes {
+                display: flex;
+                flex-direction: row;
+                height: 100%;
+                width: 100%;
+
+
+
+                .empty {
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 6%;
+
+
+                    .button-arrow {
+                        border-radius: 50%;
+                        background-color: #FFFFFF59;
+                        border: none;
+                        width: 50%;
+                        height: 10%;
+
+                    }
+                }
+
+                .second-div {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    height: 100%;
+                    padding-top: 3%;
+                    row-gap: 8%;
+                    padding-left: 47%;
+
+                    .for-image {
+
+                        display: flex;
+                        justify-content: center;
+
+
+                        .special-write {
+                            width: 40%;
+
+                        }
+                    }
+
+
+
+                    .background-p {
+                        color: #FFFFFF;
+                        text-align: center;
+                        font-family: 'Inter', sans-serif;
+                        font-size: 32px;
+                        letter-spacing: 0.1rem;
+
+
+                    }
+
+                    .for-order {
+                        color: #FFFFFF;
+                        text-decoration: none;
+                        font-size: 15px;
+                        letter-spacing: 0.3rem;
+                        display: flex;
+                        justify-content: center;
+                        padding: 4%;
+                    }
+
+                    .button-arrow {
+
+                        border-radius: 50%;
+                        background-color: #FFFFFF59;
+                        border: none;
+                        width: 6%;
+                        height: 35%;
+
+
+
+                    }
+                }
+            }
+
+        }
+    }
+
+    .for-picturesss {
+        display: flex;
+        flex-direction: row;
+        margin-top: 0.4%;
+        column-gap: 0.4%;
+
+        .for-foto1 {
+            width: 34%;
+            height: 122px;
+            background: url("../../../assets/Images/firstsidepicture.png");
+            background-size: cover;
+            background-position-x: center;
+            border: none;
+
+            .div-for-foto {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                row-gap: 10px;
+
+                .p1-for-foto1 {
+                    color: #dbd9d9;
+                    font-family: 'Inter', sans-serif;
+                    font-size: 12px;
+                }
+
+                .p2-for-foto1 {
+                    font-family: 'Inter', sans-serif;
+                    color: #dbd9d9;
+                    font-size: 20px;
+                }
+            }
+        }
+
+
+
+
+        .for-foto2 {
+            background: url("../../../assets/Images/firstsidepicture.png");
+            background-size: cover;
+            background-position-x: center;
+            width: 34%;
+            height: 122px;
+            border: none;
+
+            .div-for-foto {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                row-gap: 10px;
+
+                .p1-for-foto2 {
+                    color: #dbd9d9;
+                    font-family: 'Inter', sans-serif;
+                    font-size: 12px;
+                }
+
+                .p2-for-foto2 {
+                    font-family: 'Inter', sans-serif;
+                    color: #dbd9d9;
+                    font-size: 20px;
+                }
+            }
+        }
+
+        .for-foto3 {
+            background: url("../../../assets/Images/firstsidepicture.png");
+            background-size: cover;
+            background-position-x: center;
+            width: 34%;
+            height: 122px;
+            border: none;
+
+            .div-for-foto {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                row-gap: 10px;
+
+                .p1-for-foto3 {
+                    color: #dbd9d9;
+                    font-family: 'Inter', sans-serif;
+                    font-size: 12px;
+                }
+
+                .p2-for-foto3 {
+                    font-family: 'Inter', sans-serif;
+                    color: #dbd9d9;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+
+}

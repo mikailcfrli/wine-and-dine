@@ -10,7 +10,6 @@ function App() {
     <>
     <Header />
     <main>
-    <h1>Let's start</h1>
    </main>
     <Footer />
    </>
