@@ -8,10 +8,8 @@ import { Footer } from './app/shared/Footer/Footer';
 function App() {
   return (
     <>
-    <Header />
-    <main>
-    <h1>Let's start</h1>
-   </main>
+
+
     <Footer />
    </>
   );
