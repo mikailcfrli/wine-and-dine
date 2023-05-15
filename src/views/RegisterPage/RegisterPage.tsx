@@ -1,6 +1,4 @@
-import "./RegisterPage.scss";
+import './RegisterPage.scss';
 export const RegisterPage = () => {
-    return (
-        <div>Register page</div>
-    );
-}
+  return <div>Register page</div>;
+};
