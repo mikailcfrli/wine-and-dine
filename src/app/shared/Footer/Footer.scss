@@ -4,21 +4,24 @@
   display: flex;
 
   align-items: center;
-  background-color: black;
+  background: #0A0A0A;
+
   gap: 50px;
 }
 .left1 {
   width: 393px;
   height: 224px;
-  margin-left: 45px;
+
+  margin-left: 95px;
 }
 .left1 {
   .label {
     display: flex;
     flex-direction: column;
-    width: 346px;
-    height: 81px;
+    width: 457px;
+    height: 91px;
     margin-top: 10px;
+   
   }
   .send {
     margin-top: 20px;
@@ -29,6 +32,7 @@
     font-family: "Inter", sans-serif;
     font-size: 11px;
     border: none;
+
   }
   .facebook {
     width: 5px;
@@ -46,8 +50,9 @@
   .h1 {
     color: white;
     font-family: "Inter", sans-serif;
-    font-size: 11px;
+    font-size: 13px;
     line-height: 20px;
+
   }
   .email {
     color: white;
@@ -57,13 +62,16 @@
     line-height: 20px;
     letter-spacing: 30%;
     margin-top: 22px;
+ 
+
   }
 }
-.right1 {
-  .right {
-    width: 820px;
-    height: 308px;
-  }
+.right1 .right {
+    width: 1187px;
+    height: 315px;
+  
+    margin-top: 5px;
+    margin-left: 87px;
 }
 
 .end {
@@ -80,6 +88,7 @@
   color: white;
   display: flex;
   gap: 91px;
+  background-color: #292828;
 }
 .p1-nav {
   font-family: "Inter", sans-serif;
@@ -109,4 +118,7 @@
   font-size: 12px;
   margin-left: 43px;
   margin-top: 97px;
+}
+.nav-end1{
+    margin-left: 55px;
 }
