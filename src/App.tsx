@@ -5,6 +5,7 @@ import { Header } from './app/shared/Header/Header';
 import { RegisterPage } from './views/RegisterPage/RegisterPage';
 import { Route, Routes } from 'react-router-dom';
 import React from 'react';
+import { ErrorPage } from './views/ErrorPage/ErrorPage';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <main>
         <Routes>
           <Route path="register" element={<RegisterPage />} />
+          <Route path="error" element={<ErrorPage />} />
         </Routes>
       </main>
       <Footer />
