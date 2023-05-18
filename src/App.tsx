@@ -20,6 +20,7 @@ import { VodkaCatalog } from './views/VodkaCatalog/VodkaCatalog';
 import { WhiskeyCatalog } from './views/WhiskeyCatalog/WhiskeyCatalog';
 import { WineCatalog } from './views/WineCatalog/WineCatalog';
 import React from 'react';
+
 function App() {
   return (
     <>
