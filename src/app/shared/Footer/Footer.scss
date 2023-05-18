@@ -1,30 +1,32 @@
-.container {
-  width: 95%;
+.container1{
+  
   height: 294px;
   display: flex;
 
   align-items: center;
   background: #0A0A0A;
-
-  gap: 50px;
+margin-left: auto;
+margin-right: auto;
+gap: 218px;
 }
 .left1 {
   width: 393px;
   height: 224px;
 
-  margin-left: 95px;
+
 }
 .left1 {
   .label {
     display: flex;
     flex-direction: column;
     width: 457px;
-    height: 91px;
-    margin-top: 10px;
+    height: 14px;
+    margin-left: 20px;
+ 
    
   }
   .send {
-    margin-top: 20px;
+ 
     width: 189px;
     height: 31px;
     background-color: #9d0000;
@@ -32,6 +34,9 @@
     font-family: "Inter", sans-serif;
     font-size: 11px;
     border: none;
+   
+    margin-top: 92px;
+    margin-left: 61px;
 
   }
   .facebook {
@@ -41,7 +46,9 @@
   .images {
     display: flex;
     gap: 80px;
-    margin-top: 50px;
+    margin-top: 41px;
+    margin-left: 62px;
+
   }
   .insta {
     width: 12px;
@@ -52,7 +59,8 @@
     font-family: "Inter", sans-serif;
     font-size: 13px;
     line-height: 20px;
-
+letter-spacing: 0.1em;
+margin-left: 60px;
   }
   .email {
     color: white;
@@ -62,16 +70,16 @@
     line-height: 20px;
     letter-spacing: 30%;
     margin-top: 22px;
+    margin-left: 20px;
  
 
   }
 }
 .right1 .right {
-    width: 1187px;
-    height: 315px;
+  width: 1184px;
+  height: 309px;
   
-    margin-top: 5px;
-    margin-left: 87px;
+
 }
 
 .end {
@@ -80,7 +88,7 @@
 }
 
 .container-2 {
-  width: 95%;
+  width: 96%;
   height: 294px;
   background-color: #0a0a0a;
   margin-left: auto;
@@ -104,6 +112,7 @@
   font-size: 12px;
   font-weight: 500;
   margin-left: 44px;
+ 
 }
 .p1-nav2 {
   font-family: "Inter", sans-serif;

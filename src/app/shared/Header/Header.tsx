@@ -31,7 +31,7 @@ export const Header = () => {
           <div className="personalarea">
             <div className="area1">
               <div className="forregister">
-                <Link to={''} className="register">
+                <Link to={''} className="registeer">
                   Register
                 </Link>
               </div>
@@ -65,7 +65,7 @@ export const Header = () => {
 
       <div className="for-background">
         <div className="container">
-          <div className="wines">
+          <nav>
             <Link to={''} className="wine">
               Wine
             </Link>
@@ -96,7 +96,7 @@ export const Header = () => {
             <Link to={''} className="wine">
               Delicacy
             </Link>
-          </div>
+            </nav>
           <hr className="main-hr" />
         </div>
       </div>

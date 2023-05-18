@@ -1,12 +1,9 @@
 .container {
-  width: 96%;
-  background-color: #292828;
-  
   .picture-carusel {
     padding-top: 35px;
 
     .background-first {
-      background: url("../../../../assets/Images/Rectangle\ 3.png");
+      background: url('../../../../assets/Images/Rectangle\ 3.png');
       background-size: cover;
       background-position-x: center;
       width: 100%;
@@ -55,7 +52,7 @@
           .background-p {
             color: #ffffff;
             text-align: center;
-            font-family: "Inter", sans-serif;
+            font-family: 'Inter', sans-serif;
             font-size: 40px;
             letter-spacing: 0.1rem;
           }
@@ -77,25 +74,25 @@
   .for-picturesss {
     display: flex;
     flex-direction: row;
-    margin-top: 0.4%;
+    padding: 7px 0 7px;
     column-gap: 0.4%;
 
     .for-foto1 {
       width: 34%;
       height: 170px;
-      background: url("../../../../assets/Images/image\ 4.png");
+      background: url('../../../../assets/Images/image\ 4.png');
       background-size: cover;
       background-position-x: center;
       text-decoration: none;
       display: flex;
       justify-content: center;
       align-items: center;
-      row-gap: 10px ;
+      row-gap: 10px;
     }
   }
 
   .for-foto2 {
-    background: url("../../../../assets/Images/Rectangle\ 5.png");
+    background: url('../../../../assets/Images/Rectangle\ 5.png');
     background-size: cover;
     background-position-x: center;
     width: 34%;
@@ -104,11 +101,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    row-gap: 10px ;
+    row-gap: 10px;
   }
 
   .for-foto3 {
-    background: url("../../../../assets/Images/Rectangle\ 6.png");
+    background: url('../../../../assets/Images/Rectangle\ 6.png');
     background-size: cover;
     background-position-x: center;
     width: 34%;
@@ -117,22 +114,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    row-gap: 10px ;
-
+    row-gap: 10px;
   }
-
 
   .p1-for-foto {
     font-size: 15px;
     color: #dbd9d9;
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     text-align: center;
   }
 
   .p2-for-foto {
     font-size: 25px;
     color: #dbd9d9;
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     text-align: center;
   }
 }
