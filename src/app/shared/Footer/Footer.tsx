@@ -1,48 +1,40 @@
-import "./Footer.scss";
-import insta from "../../../../src/assets/insta.png";
-import tg from "../../../assets/tg.png";
-import vector2 from "../../../assets/Vector 2.png";
-import facebook from "../../../assets/facebook.png";
+import './Footer.scss';
+import facebook from '../../../assets/facebook.png';
+import insta from '../../../../src/assets/insta.png';
+import tg from '../../../assets/tg.png';
+import vector2 from '../../../assets/Vector 2.png';
 export const Footer = () => {
   return (
     <div className="container1">
       <div className="container">
         <div className="left1">
-          <h1 className="h1">
-            S U B S C R I B E T O E M A I L N E W S L E T T E R
-          </h1>
+          <h1 className="h1">S U B S C R I B E T O E M A I L N E W S L E T T E R</h1>
           <div className="label">
             <label className="email" htmlFor="email">
               E M A I L
             </label>
-            <input
-              className="label"
-              type="text"
-              id="email"
-              name="email"
-              placeholder=""
-            />
+            <input className="label" type="text" id="email" name="email" placeholder="" />
           </div>
 
           <div>
             <button className="send">S E N D</button>
           </div>
           <div className="images">
-            <a href="#">
-              <img className="facebook" src={facebook} />
+            <a href="/">
+              <img className="facebook" src={facebook} alt="" />
             </a>
-            <a href="#">
-              {" "}
-              <img className="insta" src={insta} />
+            <a href="/">
+              {' '}
+              <img className="insta" src={insta} alt="" />
             </a>
-            <a href="#">
-              {" "}
-              <img className="tg" src={tg} />
+            <a href="/">
+              {' '}
+              <img className="tg" src={tg} alt="" />
             </a>
           </div>
         </div>
         <div className="right1">
-          <img className="right" src={vector2} />
+          <img className="right" src={vector2} alt="" />
         </div>
       </div>
 
