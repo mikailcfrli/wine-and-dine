@@ -1,6 +1,4 @@
-import "./LoginPage.scss";
+import './LoginPage.scss';
 export const LoginPage = () => {
-    return (
-        <div>Login page</div>
-    );
-}
+  return <div>Login page</div>;
+};
