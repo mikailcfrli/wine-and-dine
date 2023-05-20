@@ -12,10 +12,7 @@ function App() {
     <>
       <Header />
       <main>
-        <Routes>
-          <Route path="register" element={<RegisterPage />} />
-          <Route path="error" element={<ErrorPage />} />
-        </Routes>
+      <ErrorPage/>
       </main>
       <Footer />
     </>
