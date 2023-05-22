@@ -1,0 +1,7 @@
+.grid-box {
+  width: 65%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 150px 80px;
+  background-color: #1b1918;
+}
