@@ -1,13 +1,281 @@
 .cardProduct{
-    width: 95%;
+  gap:82px;
 display: flex;
 
-.card-left{
-    width: 100px;
-    height: 100px;
-    background-color: black;
+width: 95%;
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 40%;
+    background-color: #0A0A0A;
+    margin-left: 15%;
+   
+  }
+  .Wine{
+    margin-left: 35%;
+    margin-top: -30%;
+  }
+  .grid-container > div {
+    width: 400px;
+    height: 377px;
+    background-color:#0A0A0A;
+  }
+  .card-right-all{
+    margin-top:6%;
+    display: flex;
+    flex-direction: column;
+  }
+  .card-right{
+    display: flex;
+    margin-top: 13%;
+    margin-left: 13%;
+    gap: 137px;
+  }
+  
+  .card-right2{
+    display: flex;
+    align-items: center;
+    gap: 26px;
+  }
+  .pright1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 7px;
+letter-spacing: 0.25em;
+text-transform: uppercase;
+color: #FFFFFF;
+  }
+.haut{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 7px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 11%;
 }
+.hr{
+  margin-top: 5%;
+  width: 320px;
+height: 0px;
 
+opacity: 0.25;
+border: 0.885042px solid #FFFFFF;
+}
+.hr1{
+  margin-top: 15%;
+  width: 320px;
+height: 0px;
+
+opacity: 0.25;
+border: 0.885042px solid #FFFFFF;
+}
+.pright2{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 9px;
+line-height: 30px;
+letter-spacing: 0.3em;
+text-transform: uppercase;
+margin-top: 5%;
+color: #FFFFFF;
+}
+.pright3{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 9px;
+line-height: 30px;
+/* or 330% */
+
+letter-spacing: 0.3em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+.p-right4{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 9px;
+line-height: 37px;
+letter-spacing: 0.55em;
+text-transform: uppercase;
+color: #FFFFFF;
+opacity: 0.35;
+}
+.p-right5{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 37px;
+letter-spacing: 0.3em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+.button-cart{
+  width: 202px;
+  height: 49px;
+  border: none;
+  background-color: #7A0000;
+  margin-top: 22%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+letter-spacing: 0.35em;
+
+color: #FFFFFF;
+  
+}
+.card-right-end{
+  display: flex;
+  margin-top: 10%;
+  margin-top: 6%;
+}
+.images-leaf{
+  display: flex;
+  align-items:center;
+  margin-top: 18%;
+  gap: 15%;
+}
+.p-right-end1{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 9px;
+line-height: 3px;
+letter-spacing: 0.25em;
+text-transform: uppercase;
+margin-top: 10%;
+color: #FFFFFF;
+
+opacity: 0.5;
+}
+.p-right-end2{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 11px;
+line-height: 16px;
+letter-spacing: 0.25em;
+text-transform: uppercase;
+margin-top: 3%;
+color: #FFFFFF;
+}
+.p-right-end11{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 9px;
+line-height: 3px;
+letter-spacing: 0.25em;
+text-transform: uppercase;
+margin-top: 10%;
+color: #FFFFFF;
+margin-top: 30%;
+opacity: 0.5;
+}
+.p-right-end22{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 11px;
+line-height: 16px;
+letter-spacing: 0.25em;
+text-transform: uppercase;
+margin-top: 3%;
+color: #FFFFFF;
+}
+.p-right-end111{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 9px;
+line-height: 3px;
+letter-spacing: 0.25em;
+text-transform: uppercase;
+margin-top: 10%;
+color: #FFFFFF;
+margin-top: 30%;
+opacity: 0.5;
+}
+.p-right-end222{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 11px;
+line-height: 16px;
+letter-spacing: 0.25em;
+text-transform: uppercase;
+margin-top: 3%;
+color: #FFFFFF;
+margin-top: 10%;
+}
+.card-right-end1{
+  margin-left: 13%;
+
+
+}
+.card-right-end2{
+  margin-top: -3%;
+  margin-left: 10%;
+
+}
+.card-right-end3{
+  margin-left: 25%;
+  margin-top: -5%;
+}
+.p-paragraph1{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 9px;
+line-height: 4px;
+letter-spacing: 0.25em;
+text-transform: uppercase;
+margin-bottom: 3%;
+color: #FFFFFF;
+
+opacity: 0.5;
+}
+.p-paragraph2{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.card-paragraph{
+  padding-top: 15%;
+    padding-left: 13%;
+}
+.legend-part{
+  margin-top: 10%;
+}
+.vinification-part{
+  margin-top: 10%;
+}
+.p{
+  font-family: 'Inter';
+font-style: normal;
+color: #FFFFFF;
+}
 }
 
 
