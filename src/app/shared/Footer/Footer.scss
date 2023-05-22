@@ -1,0 +1,133 @@
+.container1{
+  
+  height: 294px;
+  display: flex;
+
+  align-items: center;
+  background: #0A0A0A;
+margin-left: auto;
+margin-right: auto;
+gap: 218px;
+}
+.left1 {
+  width: 393px;
+  height: 224px;
+
+
+}
+.left1 {
+  .label {
+    display: flex;
+    flex-direction: column;
+    width: 457px;
+    height: 14px;
+    margin-left: 20px;
+ 
+   
+  }
+  .send {
+ 
+    width: 189px;
+    height: 31px;
+    background-color: #9d0000;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 11px;
+    border: none;
+   
+    margin-top: 92px;
+    margin-left: 61px;
+
+  }
+  .facebook {
+    width: 5px;
+  }
+
+  .images {
+    display: flex;
+    gap: 80px;
+    margin-top: 41px;
+    margin-left: 62px;
+
+  }
+  .insta {
+    width: 12px;
+  }
+
+  .h1 {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+letter-spacing: 0.1em;
+margin-left: 60px;
+  }
+  .email {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 9px;
+    opacity: 50%;
+    line-height: 20px;
+    letter-spacing: 30%;
+    margin-top: 22px;
+    margin-left: 20px;
+ 
+
+  }
+}
+.right1 .right {
+  width: 1184px;
+  height: 309px;
+  
+
+}
+
+.end {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-2 {
+  width: 96%;
+  height: 294px;
+  background-color: #0a0a0a;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  display: flex;
+  gap: 91px;
+  background-color: #292828;
+}
+.p1-nav {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  font-size: 12px;
+  margin-left: 44px;
+  margin-top: 67px;
+  margin-bottom: 25px;
+}
+.ul-nav {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 44px;
+ 
+}
+.p1-nav2 {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  font-size: 12px;
+  margin-left: 43px;
+  margin-top: 70px;
+}
+.p1-nav3 {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  font-size: 12px;
+  margin-left: 43px;
+  margin-top: 97px;
+}
+.nav-end1{
+    margin-left: 55px;
+}
