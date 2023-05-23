@@ -1,138 +1,72 @@
-.container {
-  width: 96%;
-  background-color: #292828;
-  
-  .picture-carusel {
-    padding-top: 35px;
+.slide1 {
+  background-image: url("../../../../assets/Images/Rectangle\ 3.png");
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+}
 
-    .background-first {
-      background: url("../../../../assets/Images/Rectangle\ 3.png");
-      background-size: cover;
-      background-position-x: center;
+  .for-2writes {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+
+    .empty {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 6%;
+
+
+    }
+
+    .second-div {
+      display: flex;
+      flex-direction: column;
       width: 100%;
-      height: 400px;
+      height: 100%;
+      padding-top: 3%;
+      row-gap: 10%;
+      padding-left: 47%;
 
-      .for-2writes {
+      .for-image {
         display: flex;
-        flex-direction: row;
-        height: 100%;
-        width: 100%;
+        justify-content: center;
 
-        .empty {
-          height: 100%;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          width: 6%;
-
-          .button-arrow {
-            border-radius: 50%;
-            background-color: #ffffff59;
-            border: none;
-            width: 48%;
-            height: 10%;
-          }
+        .special-write {
+          width: 40%;
         }
+      }
 
-        .second-div {
-          display: flex;
-          flex-direction: column;
-          width: 100%;
-          height: 100%;
-          padding-top: 3%;
-          row-gap: 10%;
-          padding-left: 47%;
+      .background-p {
+        color: #ffffff;
+        text-align: center;
+        font-family: "Inter", sans-serif;
+        font-size: 40px;
+        letter-spacing: 0.1rem;
+      }
 
-          .for-image {
-            display: flex;
-            justify-content: center;
-
-            .special-write {
-              width: 40%;
-            }
-          }
-
-          .background-p {
-            color: #ffffff;
-            text-align: center;
-            font-family: "Inter", sans-serif;
-            font-size: 40px;
-            letter-spacing: 0.1rem;
-          }
-
-          .for-order {
-            color: #ffffff;
-            text-decoration: none;
-            font-size: 15px;
-            letter-spacing: 0.3rem;
-            display: flex;
-            justify-content: center;
-            padding: 4%;
-          }
-        }
+      .for-order {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 15px;
+        letter-spacing: 0.3rem;
+        display: flex;
+        justify-content: center;
+        padding: 4%;
       }
     }
   }
 
-  .for-picturesss {
-    display: flex;
-    flex-direction: row;
-    margin-top: 0.4%;
-    column-gap: 0.4%;
+.slide2{
+  background-image: url("../../../../assets/Images/image\ 50.png");
+  background-size: cover;
+  width: 100%;
+  height: 400px;
 
-    .for-foto1 {
-      width: 34%;
-      height: 170px;
-      background: url("../../../../assets/Images/image\ 4.png");
-      background-size: cover;
-      background-position-x: center;
-      text-decoration: none;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      row-gap: 10px ;
-    }
-  }
+  
 
-  .for-foto2 {
-    background: url("../../../../assets/Images/Rectangle\ 5.png");
-    background-size: cover;
-    background-position-x: center;
-    width: 34%;
-    height: 170px;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    row-gap: 10px ;
-  }
-
-  .for-foto3 {
-    background: url("../../../../assets/Images/Rectangle\ 6.png");
-    background-size: cover;
-    background-position-x: center;
-    width: 34%;
-    height: 170px;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    row-gap: 10px ;
-
-  }
-
-
-  .p1-for-foto {
-    font-size: 15px;
-    color: #dbd9d9;
-    font-family: "Inter", sans-serif;
-    text-align: center;
-  }
-
-  .p2-for-foto {
-    font-size: 25px;
-    color: #dbd9d9;
-    font-family: "Inter", sans-serif;
-    text-align: center;
-  }
 }
+
+

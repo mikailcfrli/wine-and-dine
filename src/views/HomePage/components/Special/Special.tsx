@@ -1,62 +1,75 @@
 import './Special.scss';
-import { Link } from 'react-router-dom';
-import arrow from '../../../../assets/Images/Arrow 1.png';
-import arrow2 from '../../../../assets/Images/Arrow 2.png';
+import 'slick-carousel/slick/slick-theme.css';
+import 'slick-carousel/slick/slick.css';
+
 import specialwrite from '../../../../assets/Images/Special Offer.png';
+
+import { Link } from 'react-router-dom';
+import React from 'react';
+import Slider from 'react-slick';
+
 export const Special = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+  };
   return (
     <>
-      <div className="container">
-        <div className="picture-carusel">
-          <div className="background-first">
-            <div className="for-2writes">
-              <div className="empty">
-                <button className="button-arrow">
-                  <img src={arrow} alt="" className="left-arrow" />
-                </button>
+      <Slider {...settings}>
+        <div className='for-slide'>
+        <div className="container">
+        <div className="slide1">
+          <div className="for-2writes">
+            <div className="empty"></div>
+            <div className="second-div">
+              <div className="for-image">
+                <img src={specialwrite} alt="" className="special-write" />
               </div>
-              <div className="second-div">
-                <div className="for-image">
-                  <img src={specialwrite} alt="" className="special-write" />
-                </div>
 
-                <p className="background-p">
-                  PICHON LONGUEVILLE
-                  <br />
-                </p>
-                <Link to={''} className="for-order">
-                  ORDER WINE
-                </Link>
-              </div>
-              <div className="empty">
-                <button className="button-arrow">
-                  <img src={arrow2} alt="" className="arrow2" />
-                </button>
-              </div>
+              <p className="background-p">
+                PICHON LONGUEVILLE <br />COMTESSE DE LALANDE
+                
+              </p>
+              <Link to={''} className="for-order">
+                ORDER WINE
+              </Link>
             </div>
+            <div className="empty"></div>
+          </div>
+          </div>
           </div>
         </div>
-        <div className="for-picturesss">
-          <div className="for-foto1">
-            <div className="div-for-foto">
-              <p className="p1-for-foto">ON THE TERRITORY OF BORDEAUX</p>
-              <p className="p2-for-foto">WINE BRANDING</p>
+        <div className='for-slide'>
+        <div className="container">
+        <div className="slide2">
+          <div className="for-2writes">
+            <div className="empty"></div>
+            <div className="second-div">
+              <div className="for-image">
+                <img src={specialwrite} alt="" className="special-write" />
+              </div>
+
+              <p className="background-p">
+              PINOT NOIR:<br />BURGUNDY VS. South Africa
+                
+              </p>
+              <Link to={''} className="for-order">
+              TO LEARN MORE
+              </Link>
             </div>
-          </div>
-          <div className="for-foto2">
-            <div className="div-for-foto">
-              <p className="p1-for-foto">WHAT MAKES US SPECIAL?</p>
-              <p className="p2-for-foto">INTERVIEW WITH A SOMMELIE</p>
-            </div>
-          </div>
-          <div className="for-foto3">
-            <div className="div-for-foto">
-              <p className="p1-for-foto">WITH INTERESTING INGREDIENTS</p>
-              <p className="p2-for-foto">SIGNATURE COCKTAILS</p>
-            </div>
+            <div className="empty"></div>
           </div>
         </div>
-      </div>
+        </div>
+        </div>
+      </Slider>
     </>
   );
 };
+
+export default Special;
