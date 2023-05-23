@@ -20,7 +20,6 @@ import { VodkaCatalog } from './views/VodkaCatalog/VodkaCatalog';
 import { WhiskeyCatalog } from './views/WhiskeyCatalog/WhiskeyCatalog';
 import { WineCatalog } from './views/WineCatalog/WineCatalog';
 import React from 'react';
-import { ErrorPage } from './views/ErrorPage/ErrorPage';
 
 function App() {
   return (
@@ -46,7 +45,7 @@ function App() {
           <Route path="whiskey" element={<WhiskeyCatalog />} />
         </Routes>
       </main>
-      <ErrorPage/>
+      <ErrorPage />
       <Footer />
     </>
   );
