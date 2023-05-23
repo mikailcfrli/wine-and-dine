@@ -1,6 +1,6 @@
-.cardProduct{
+.CardProduct{
   gap:82px;
-display: flex;
+  display: flex;
 
 width: 95%;
 .grid-container {
@@ -14,22 +14,23 @@ width: 95%;
   .Wine{
     margin-left: 35%;
     margin-top: -30%;
+    width: 176px;
   }
   .grid-container > div {
-    width: 400px;
-    height: 377px;
-    background-color:#0A0A0A;
+    width: 570px;
+    height: 457px;
+    background-color: #0A0A0A;
   }
-  .card-right-all{
+  .ProductDecriptionContainer{
     margin-top:6%;
     display: flex;
     flex-direction: column;
   }
-  .card-right{
+  .ProductTitle{
     display: flex;
-    margin-top: 13%;
-    margin-left: 13%;
-    gap: 137px;
+    margin-top: 120px;
+    margin-left: 137px;
+    gap: 198px;
   }
   
   .card-right2{
@@ -91,8 +92,6 @@ font-style: normal;
 font-weight: 600;
 font-size: 9px;
 line-height: 30px;
-/* or 330% */
-
 letter-spacing: 0.3em;
 text-transform: uppercase;
 
@@ -139,29 +138,30 @@ letter-spacing: 0.35em;
 color: #FFFFFF;
   
 }
-.card-right-end{
+.Description{
   display: flex;
-  margin-top: 10%;
-  margin-top: 6%;
+  margin-top: 89px;
+  gap: 193px;
+  margin-left: 137px;
 }
 .images-leaf{
   display: flex;
   align-items:center;
-  margin-top: 18%;
-  gap: 15%;
+
+  gap: 36px;
+  margin-top: 91px;
 }
 .p-right-end1{
-  font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 9px;
-line-height: 3px;
-letter-spacing: 0.25em;
-text-transform: uppercase;
-margin-top: 10%;
-color: #FFFFFF;
-
-opacity: 0.5;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 9px;
+  line-height: 3px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  margin-top: 9%;
+  color: #FFFFFF;
+  opacity: 0.5;
 }
 .p-right-end2{
   font-family: 'Inter';
@@ -182,9 +182,9 @@ font-size: 9px;
 line-height: 3px;
 letter-spacing: 0.25em;
 text-transform: uppercase;
-margin-top: 10%;
+
 color: #FFFFFF;
-margin-top: 30%;
+
 opacity: 0.5;
 }
 .p-right-end22{
@@ -206,9 +206,7 @@ font-size: 9px;
 line-height: 3px;
 letter-spacing: 0.25em;
 text-transform: uppercase;
-margin-top: 10%;
 color: #FFFFFF;
-margin-top: 30%;
 opacity: 0.5;
 }
 .p-right-end222{
@@ -219,25 +217,31 @@ font-size: 11px;
 line-height: 16px;
 letter-spacing: 0.25em;
 text-transform: uppercase;
-margin-top: 3%;
+margin-top: 11px;
 color: #FFFFFF;
-margin-top: 10%;
+
 }
 .card-right-end1{
-  margin-left: 13%;
-
+ 
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 
 }
 .card-right-end2{
-  margin-top: -3%;
-  margin-left: 10%;
+ 
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+  margin-top: 13px;
+
 
 }
 .card-right-end3{
-  margin-left: 25%;
-  margin-top: -5%;
+margin-top: 13px;
+
 }
-.p-paragraph1{
+.ParagraphTitle{
   font-family: 'Inter';
 font-style: normal;
 font-weight: 600;
@@ -250,7 +254,7 @@ color: #FFFFFF;
 
 opacity: 0.5;
 }
-.p-paragraph2{
+.ParagraphBox{
   font-family: 'Inter';
 font-style: normal;
 font-weight: 500;
@@ -261,7 +265,7 @@ text-transform: uppercase;
 
 color: #FFFFFF;
 }
-.card-paragraph{
+.CardInfo{
   padding-top: 15%;
     padding-left: 13%;
 }
@@ -276,6 +280,11 @@ color: #FFFFFF;
 font-style: normal;
 color: #FFFFFF;
 }
+.card-right3{
+  margin-left: 15%;
 }
+}
+
+
 
 
