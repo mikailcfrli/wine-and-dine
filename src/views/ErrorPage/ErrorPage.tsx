@@ -1,4 +1,4 @@
 import './ErrorPage.scss';
 export const ErrorPage = () => {
-  return <div>Error Page is Work</div>;
+  return <div > This for ErrorPage</div>;
 };
