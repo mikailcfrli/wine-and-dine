@@ -1,4 +1,9 @@
 import './SparklingCatalog.scss';
+import { Carousel } from '../../app/shared/Crousel/Carousel';
 export const SparklingCatalog = () => {
-  return <div>SparklingCatalog Page is Work</div>;
+  return (
+    <>
+      <Carousel />
+    </>
+  );
 };
