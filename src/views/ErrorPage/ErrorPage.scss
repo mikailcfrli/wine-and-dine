@@ -1,22 +1,22 @@
 .errorpage {
-  width: 100%;
-  height: 560px;
-  background: url('./Error.png');
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 10px;
+  
+    background-image: url(../ErrorPage//Error.png);
+    height: 778px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 75px;
+    
+}
 
-  .ops {
-    font-family: 'Alex Brush';
-    color: white;
-    font-weight: 400;
-    font-size: 82px;
-    line-height: 102px;
-    padding: 1px 43px;
+  .oops {
+    margin-top: 84px;
+    margin-left: 60px;
   }
-
+.error{
+  width: 1787px;
+}
   .look {
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 600;
     font-size: 28px;
@@ -24,17 +24,23 @@
     letter-spacing: 0.25em;
     text-transform: uppercase;
     color: white;
-    padding: 160px 40px 60px 44px;
+    padding: 307px 40px 71px 74px;
   }
 
   .number {
-    font-family: 'Inter';
-    font-weight: 800;
-    font-size: 17.3431px;
-    line-height: 21px;
-    text-align: center;
-    letter-spacing: 0.5em;
-    color: #ffffff;
-    padding: 45px 38px 10px 1184px;
+display: flex;
+justify-content: space-between;
   }
+.four{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 17.3431px;
+line-height: 21px;
+
+text-align: center;
+letter-spacing: 0.5em;
+margin-top: 63px;
+margin-right: 60px;
+color: #FFFFFF;
 }
