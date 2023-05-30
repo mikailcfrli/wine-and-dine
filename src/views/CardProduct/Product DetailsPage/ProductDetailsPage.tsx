@@ -1,7 +1,7 @@
-import './ProductDetailsPage';
-import wine from '../ProductDetailsPage/wine.png';
-import leaf from '../ProductDetailsPage/list.png';
-import flag from '../ProductDetailsPage/flag.png';
+import './ProductDetailsPage.scss';
+import flag from '../Product DetailsPage/flag.png';
+import leaf from '../Product DetailsPage/list.png';
+import wine from '../Product DetailsPage/wine.png';
 export const ProductDetailsPage = () => {
   return (
     <div className='container' >
