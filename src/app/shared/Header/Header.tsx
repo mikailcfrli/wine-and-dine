@@ -66,35 +66,26 @@ export const Header = () => {
       <div className="for-background">
         <div className="container">
           <nav>
-            <Link to={''} className="wine">
+            <Link to={'wine'} className="wine">
               Wine
             </Link>
-            <Link to={''} className="wine">
+            <Link to={'sparling'} className="wine">
               Sparkling
             </Link>
-            <Link to={''} className="wine">
+            <Link to={'whiskey'} className="wine">
               Whiskey
             </Link>
-            <Link to={''} className="wine">
+            <Link to={'cognac'} className="wine">
               Cognac
             </Link>
-            <Link to={''} className="wine">
-              Armagnac
-            </Link>
-            <Link to={''} className="wine">
+            <Link to={'rom'} className="wine">
               Rom
             </Link>
-            <Link to={''} className="wine">
+            <Link to={'vodka'} className="wine">
               Vodka
             </Link>
-            <Link to={''} className="wine">
-              Liqueur
-            </Link>
-            <Link to={''} className="wine">
+            <Link to={'cocktails'} className="wine">
               Cocktails
-            </Link>
-            <Link to={''} className="wine">
-              Delicacy
             </Link>
             </nav>
           <hr className="main-hr" />
