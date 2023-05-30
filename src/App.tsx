@@ -1,6 +1,7 @@
 /* eslint-disable react/jsx-no-undef */
 import './App.scss';
 import { Basket } from './views/Basket/Basket';
+import { ProductDetailsPage } from './views/CardProduct/Product DetailsPage/ProductDetailsPage';
 import { CocktailsCatalog } from './views/CocktailsCatalog/CocktailsCatalog';
 import { CognacCatalog } from './views/CognacCatalog/CognacCatalog';
 import { ErrorPage } from './views/ErrorPage/ErrorPage';
@@ -21,8 +22,10 @@ import React from 'react';
 function App() {
   return (
     <>
+
       <Header />
       <main>
+        <ProductDetailsPage />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="register" element={<RegisterPage />} />
@@ -39,7 +42,7 @@ function App() {
           <Route path="whiskey" element={<WhiskeyCatalog />} />
         </Routes>
       </main>
-      <Footer />
+<Footer/>
     </>
   );
 }
