@@ -1,4 +1,9 @@
 import './CognacCatalog.scss';
+import { Carousel } from '../../app/shared/Crousel/Carousel';
 export const CognacCatalog = () => {
-  return <div>CognacCatalog Page is Work</div>;
+  return (
+    <>
+      <Carousel />
+    </>
+  );
 };
