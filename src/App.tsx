@@ -30,7 +30,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="register" element={<RegisterPage />} />
           <Route path="login" element={<LoginPage />} />
-          <Route path="error" element={<ErrorPage />} />
+          <Route path="*" element={<ErrorPage />} />
           <Route path="armagnac" element={<ArmagnacCatalog />} />
           <Route path="basket" element={<Basket />} />
           <Route path="product" element={<CardProduct />} />
@@ -45,7 +45,6 @@ function App() {
           <Route path="whiskey" element={<WhiskeyCatalog />} />
         </Routes>
       </main>
-      <ErrorPage />
       <Footer />
     </>
   );
