@@ -1,4 +1,4 @@
-import './CardProduct.scss';
+import './CardProduct2.scss';
 import background from './black-background.png';
 interface CardProductProps {
   price: number;
@@ -10,12 +10,12 @@ interface CardProductProps {
   country: string;
   factory: string;
 }
-export const CardProduct = (props: CardProductProps) => {
+export const CardProduct2 = (props: CardProductProps) => {
   return (
     <div className="product-card">
-      <div className="black-frame">
+      <div className="black-frame-second">
         <img className="div-background" src={background} alt="nooo" />
-        <img className="glass" src={props.image} alt="" />
+        <img className="glass-second" src={props.image} alt="" />
       </div>
       <p className="title-text">{props.title}</p>
       <span className="year-size">

@@ -18,10 +18,10 @@ export const Header = () => {
 
       <div className="for-header">
         <div className="for-secondheader">
-          <div className="logo-side">
+          <Link className="logo-side" to={'/'}>
             <img src={Group} alt="" className="group" />
             <img src={logoname} alt="" className="logo-name" />
-          </div>
+          </Link>
           <div className="search-side">
             <input type="search" className="search" />
             <button className="for-search">
