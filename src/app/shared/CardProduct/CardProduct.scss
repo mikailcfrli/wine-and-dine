@@ -1,0 +1,88 @@
+.product-card {
+  width: 238px;
+  .year-size {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 7px;
+    line-height: 14px;
+    /* identical to box height, or 200% */
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  .origin-div {
+    margin-bottom: 13px;
+    .origin {
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 7px;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+  }
+  .product-card-flex {
+    display: flex;
+    justify-content: space-between;
+    .brown-text {
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 6px;
+      line-height: 14px;
+      /* identical to box height, or 239% */
+      letter-spacing: 0.55em;
+      text-transform: uppercase;
+      color: #ffffff;
+      opacity: 0.35;
+    }
+    .card-button {
+      width: 105px;
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 8px;
+      line-height: 10px;
+      /* identical to box height */
+      text-align: center;
+      letter-spacing: 0.35em;
+      color: #ffffff;
+      background-color: #7A0000;
+      border: 0;
+      cursor: pointer;
+    }
+  }
+  .title-text {
+    margin-top: 18px;
+    width: 100px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  .price-text {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 14px;
+    /* identical to box height, or 130% */
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  .black-frame {
+    position: relative;
+    .glass {
+      position: absolute;
+      left: 70px;
+      bottom: 0;
+    }
+  }
+}

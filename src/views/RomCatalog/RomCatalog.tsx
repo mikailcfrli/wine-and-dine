@@ -1,4 +1,9 @@
 import './RomCatalog.scss';
+import { Carousel } from '../../app/shared/Crousel/Carousel';
 export const RomCatalog = () => {
-  return <div>RomCatalog Page is Work</div>;
+  return (
+    <>
+      <Carousel />
+    </>
+  );
 };
